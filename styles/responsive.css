@@ -1,0 +1,16 @@
+/* Breakpoint */
+@media screen and (max-width: 768px) {
+   main {
+      flex-direction: column-reverse;
+   }
+   .checkout-summary-wrapper,
+   .checkout-form-wrapper {
+      width: 90%;
+   }
+}
+
+@media screen and (max-width: 930px) {
+   .quantity-field {
+      width: 90%;
+   }
+}

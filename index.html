@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Checkout Page</title>
+      <link rel="stylesheet" href="./styles/style.css" />
+      <link rel="stylesheet" href="./styles/responsive.css" />
+   </head>
+   <body>
+      <main class="container">
+         <div class="checkout-form-wrapper">
+            <h1>Checkout</h1>
+            <div class="contact-info-wrapper">
+               <h3>Contact Information</h3>
+               <form action="#">
+                  <label for="email">Email</label>
+                  <div class="input-wrapper">
+                     <i class="fa-solid fa-envelope"></i>
+                     <input placeholder="Your email" id="email" type="email" />
+                  </div>
+                  <label for="phone">Phone</label>
+                  <div class="input-wrapper">
+                     <i class="fa-solid fa-phone"></i>
+                     <input placeholder="Your phone" id="phone" type="number" />
+                  </div>
+               </form>
+            </div>
+            <div class="shipping-address-wrapper">
+               <h3>Shipping address</h3>
+               <form action="#">
+                  <label for="full-name">Full Name</label>
+                  <div class="input-wrapper">
+                     <i class="fa-solid fa-user"></i>
+                     <input placeholder="Jhon Deo" id="full-name" type="text" />
+                  </div>
+                  <label for="Address">Address</label>
+                  <div class="input-wrapper">
+                     <i class="fa-solid fa-house"></i>
+                     <input
+                        placeholder="Your address"
+                        id="Address"
+                        type="text"
+                     />
+                  </div>
+                  <label for="City">City</label>
+                  <div class="input-wrapper">
+                     <i class="fa-solid fa-building"></i>
+                     <input placeholder="Your city" id="City" type="text" />
+                  </div>
+                  <div class="shipping-addr-inner-wrapper">
+                     <div>
+                        <label for="Country">Country</label>
+                        <div class="input-wrapper">
+                           <i class="fa-solid fa-globe"></i>
+                           <input
+                              placeholder="Your country"
+                              id="Country"
+                              type="text"
+                           />
+                        </div>
+                     </div>
+
+                     <div>
+                        <label for="Postal">Postal code</label>
+                        <div class="input-wrapper">
+                           <i class="fa-solid fa-house-flag"></i>
+                           <input
+                              placeholder="Your postal code"
+                              id="Postal"
+                              type="text"
+                           />
+                        </div>
+                     </div>
+                  </div>
+                  <div class="save-info-wrapper">
+                     <input type="checkbox" id="save-info" />
+                     <label for="save-info"
+                        >Save this information for next time</label
+                     >
+                  </div>
+                  <input id="continue-btn" type="button" value="Continue" />
+               </form>
+            </div>
+         </div>
+         <div class="checkout-summary-wrapper">
+            <div class="product-wrapper">
+               <div class="product-item-wrapper">
+                  <div class="product-image-wrapper">
+                     <img src="./images/photo1.png" alt="Product" />
+                  </div>
+                  <div class="product-info-wrapper">
+                     <h2>Vintage Backbag</h2>
+                     <p>$54.99</p>
+                     <del>$94.99</del>
+                     <div class="quantity-field">
+                        <i class="fa-solid fa-minus"></i>
+                        <input value="1" type="text" />
+                        <i class="fa-solid fa-plus"></i>
+                     </div>
+                  </div>
+               </div>
+               <div class="product-item-wrapper">
+                  <div class="product-image-wrapper">
+                     <img src="./images/photo1.png" alt="Product" />
+                  </div>
+                  <div class="product-info-wrapper">
+                     <h2>Vintage Backbag</h2>
+                     <p>$54.99</p>
+                     <del>$94.99</del>
+                     <div class="quantity-field">
+                        <i class="fa-solid fa-minus"></i>
+                        <input value="1" type="text" />
+                        <i class="fa-solid fa-plus"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="checkout-cal-wrapper">
+               <div class="cal-row">
+                  <p>Shipping</p>
+                  <p>$19</p>
+               </div>
+               <div class="cal-row">
+                  <p>Total</p>
+                  <p>$148.98</p>
+               </div>
+            </div>
+         </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="container">
+         <p>
+            Designed by <a href="https://github.com/mdrobin45">Robin</a> -
+            devChallenges.io
+         </p>
+      </footer>
+
+      <!-- Font Awesome kit -->
+      <script
+         src="https://kit.fontawesome.com/6908033352.js"
+         crossorigin="anonymous"
+      ></script>
+   </body>
+</html>
